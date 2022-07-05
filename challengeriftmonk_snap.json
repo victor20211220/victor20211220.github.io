@@ -1,0 +1,812 @@
+{
+    "items": [
+        {
+            "Rank": 1,
+            "Profile": "SORTARICAN",
+            "Class": "Monk",
+            "Rift": "77",
+            "Time": "06:33",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 3,
+            "Profile": "Lenual",
+            "Class": "Monk",
+            "Rift": "67",
+            "Time": "08:21",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 3,
+            "Profile": "cocol",
+            "Class": "Monk",
+            "Rift": "66",
+            "Time": "06:06",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 3,
+            "Profile": "MinionOne",
+            "Class": "Monk",
+            "Rift": "65",
+            "Time": "06:21",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 3,
+            "Profile": "RealX",
+            "Class": "Monk",
+            "Rift": "65",
+            "Time": "09:06",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 4,
+            "Profile": "DonkeePunch",
+            "Class": "Monk",
+            "Rift": "64",
+            "Time": "04:44",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 4,
+            "Profile": "Inanna",
+            "Class": "Monk",
+            "Rift": "63",
+            "Time": "08:16",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 4,
+            "Profile": "Aoisora",
+            "Class": "Monk",
+            "Rift": "61",
+            "Time": "06:42",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 4,
+            "Profile": "Vomitgrunndal",
+            "Class": "Monk",
+            "Rift": "58",
+            "Time": "06:22",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 5,
+            "Profile": "Daruf",
+            "Class": "Monk",
+            "Rift": "58",
+            "Time": "08:23",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 5,
+            "Profile": "Yamir",
+            "Class": "Monk",
+            "Rift": "56",
+            "Time": "08:03",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 5,
+            "Profile": "ColdWave",
+            "Class": "Monk",
+            "Rift": "55",
+            "Time": "04:11",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 5,
+            "Profile": "key",
+            "Class": "Monk",
+            "Rift": "55",
+            "Time": "06:41",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 5,
+            "Profile": "Franticlemming",
+            "Class": "Monk",
+            "Rift": "55",
+            "Time": "08:02",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 6,
+            "Profile": "GhostStep",
+            "Class": "Monk",
+            "Rift": "54",
+            "Time": "06:50",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 6,
+            "Profile": "BrotherDarkness",
+            "Class": "Monk",
+            "Rift": "54",
+            "Time": "08:33",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 6,
+            "Profile": "Ratchet",
+            "Class": "Monk",
+            "Rift": "52",
+            "Time": "03:44",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 6,
+            "Profile": "Slarby",
+            "Class": "Monk",
+            "Rift": "51",
+            "Time": "03:15",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 6,
+            "Profile": "Churvaley",
+            "Class": "Monk",
+            "Rift": "51",
+            "Time": "09:07",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 7,
+            "Profile": "xPUNxIsRI",
+            "Class": "Monk",
+            "Rift": "50",
+            "Time": "08:14",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 7,
+            "Profile": "Guldan",
+            "Class": "Monk",
+            "Rift": "50",
+            "Time": "08:27",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 7,
+            "Profile": "DarSh8k3r",
+            "Class": "Monk",
+            "Rift": "48",
+            "Time": "06:25",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 7,
+            "Profile": "Thump",
+            "Class": "Monk",
+            "Rift": "48",
+            "Time": "08:50",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 7,
+            "Profile": "Armada",
+            "Class": "Monk",
+            "Rift": "47",
+            "Time": "03:09",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 8,
+            "Profile": "Lonin",
+            "Class": "Monk",
+            "Rift": "47",
+            "Time": "06:07",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 8,
+            "Profile": "Espartano",
+            "Class": "Monk",
+            "Rift": "46",
+            "Time": "05:50",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 8,
+            "Profile": "Keeta",
+            "Class": "Monk",
+            "Rift": "46",
+            "Time": "06:07",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 8,
+            "Profile": "CzaSalad",
+            "Class": "Monk",
+            "Rift": "45",
+            "Time": "04:09",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 8,
+            "Profile": "Ifrita",
+            "Class": "Monk",
+            "Rift": "44",
+            "Time": "03:05",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 9,
+            "Profile": "Enajien",
+            "Class": "Monk",
+            "Rift": "43",
+            "Time": "04:44",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 9,
+            "Profile": "Dekhisugi",
+            "Class": "Monk",
+            "Rift": "43",
+            "Time": "05:32",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 9,
+            "Profile": "Blydam",
+            "Class": "Monk",
+            "Rift": "42",
+            "Time": "06:46",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 9,
+            "Profile": "UglyQueen",
+            "Class": "Monk",
+            "Rift": "42",
+            "Time": "07:39",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 10,
+            "Profile": "Aibhilough",
+            "Class": "Monk",
+            "Rift": "42",
+            "Time": "08:55",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 11,
+            "Profile": "Kalamity",
+            "Class": "Monk",
+            "Rift": "40",
+            "Time": "03:05",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 11,
+            "Profile": "KaifeOne",
+            "Class": "Monk",
+            "Rift": "39",
+            "Time": "07:02",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 11,
+            "Profile": "Azorius",
+            "Class": "Monk",
+            "Rift": "39",
+            "Time": "07:04",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 11,
+            "Profile": "Auldean",
+            "Class": "Monk",
+            "Rift": "38",
+            "Time": "04:49",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 11,
+            "Profile": "Mearam",
+            "Class": "Monk",
+            "Rift": "38",
+            "Time": "06:15",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 12,
+            "Profile": "Mastajanes",
+            "Class": "Monk",
+            "Rift": "36",
+            "Time": "04:01",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 12,
+            "Profile": "AMBRE",
+            "Class": "Monk",
+            "Rift": "36",
+            "Time": "05:34",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 12,
+            "Profile": "Platinum",
+            "Class": "Monk",
+            "Rift": "35",
+            "Time": "02:38",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 12,
+            "Profile": "Holywall",
+            "Class": "Monk",
+            "Rift": "34",
+            "Time": "03:25",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 12,
+            "Profile": "Aynidiot",
+            "Class": "Monk",
+            "Rift": "34",
+            "Time": "03:58",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 13,
+            "Profile": "Stephanie",
+            "Class": "Monk",
+            "Rift": "33",
+            "Time": "04:54",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 13,
+            "Profile": "GoalongWongsawat",
+            "Class": "Monk",
+            "Rift": "32",
+            "Time": "02:23",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 13,
+            "Profile": "Trashington",
+            "Class": "Monk",
+            "Rift": "32",
+            "Time": "03:37",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 13,
+            "Profile": "MuggleMonk",
+            "Class": "Monk",
+            "Rift": "32",
+            "Time": "04:37",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 13,
+            "Profile": "Athena12",
+            "Class": "Monk",
+            "Rift": "32",
+            "Time": "05:03",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 14,
+            "Profile": "QcPsYcHoPaT",
+            "Class": "Monk",
+            "Rift": "32",
+            "Time": "06:01",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 14,
+            "Profile": "Shandobi",
+            "Class": "Monk",
+            "Rift": "31",
+            "Time": "03:03,",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 14,
+            "Profile": "Kgmf",
+            "Class": "Monk",
+            "Rift": "31",
+            "Time": "Q3;52",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 14,
+            "Profile": "NICIEL",
+            "Class": "Monk",
+            "Rift": "31",
+            "Time": "04:50",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 14,
+            "Profile": "Cadfael",
+            "Class": "Monk",
+            "Rift": "31",
+            "Time": "04:53,",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 15,
+            "Profile": "Ganondorf",
+            "Class": "Monk",
+            "Rift": "31",
+            "Time": "05:13",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 15,
+            "Profile": "Lyucan",
+            "Class": "Monk",
+            "Rift": "31",
+            "Time": "05:20",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 15,
+            "Profile": "Runningwolf",
+            "Class": "Monk",
+            "Rift": "31",
+            "Time": "07:26",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 15,
+            "Profile": "PapaMilkers",
+            "Class": "Monk",
+            "Rift": "30",
+            "Time": "02:17",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 16,
+            "Profile": "Ozaro",
+            "Class": "Monk",
+            "Rift": "30",
+            "Time": "03:26",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 17,
+            "Profile": "Zrak",
+            "Class": "Monk",
+            "Rift": "30",
+            "Time": "05:07",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 17,
+            "Profile": "Vulvodynia",
+            "Class": "Monk",
+            "Rift": "30",
+            "Time": "06:07",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 17,
+            "Profile": "Zasiah",
+            "Class": "Monk",
+            "Rift": "30",
+            "Time": "08:17",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 17,
+            "Profile": "Grodfrey",
+            "Class": "Monk",
+            "Rift": "30",
+            "Time": "08:56",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 17,
+            "Profile": "Baldruk",
+            "Class": "Monk",
+            "Rift": "29",
+            "Time": "05:33)",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 18,
+            "Profile": "Etelzen",
+            "Class": "Monk",
+            "Rift": "28",
+            "Time": "03:47",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 18,
+            "Profile": "Piomyan",
+            "Class": "Monk",
+            "Rift": "28",
+            "Time": "04:07",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 18,
+            "Profile": "DahliaJean",
+            "Class": "Monk",
+            "Rift": "28",
+            "Time": "04:41",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 18,
+            "Profile": "Arafax",
+            "Class": "Monk",
+            "Rift": "28",
+            "Time": "05:03",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 18,
+            "Profile": "Mynoir",
+            "Class": "Monk",
+            "Rift": "28",
+            "Time": "06:31",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 19,
+            "Profile": "RedneckRicky",
+            "Class": "Monk",
+            "Rift": "27",
+            "Time": "05:27",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 19,
+            "Profile": "DefSolo",
+            "Class": "Monk",
+            "Rift": "27",
+            "Time": "05:52",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 19,
+            "Profile": "Merkules",
+            "Class": "Monk",
+            "Rift": "27",
+            "Time": "06:54",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 20,
+            "Profile": "Gorzyse",
+            "Class": "Monk",
+            "Rift": "26",
+            "Time": "03:53",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 21,
+            "Profile": "LEERAY",
+            "Class": "Monk",
+            "Rift": "26",
+            "Time": "06:16",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 21,
+            "Profile": "jellyBuns",
+            "Class": "Monk",
+            "Rift": "26",
+            "Time": "08:16",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 21,
+            "Profile": "Uglyegg",
+            "Class": "Monk",
+            "Rift": "25",
+            "Time": "02:25",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 21,
+            "Profile": "ALEXBOW",
+            "Class": "Monk",
+            "Rift": "25",
+            "Time": "04:18",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 21,
+            "Profile": "Arestia",
+            "Class": "Monk",
+            "Rift": "25",
+            "Time": "05:14",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 22,
+            "Profile": "Bigred72",
+            "Class": "Monk",
+            "Rift": "45",
+            "Time": "05:23",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 22,
+            "Profile": "BruceLee22",
+            "Class": "Monk",
+            "Rift": "24",
+            "Time": "04:23",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 22,
+            "Profile": "Bash",
+            "Class": "Monk",
+            "Rift": "24",
+            "Time": "06:06",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 22,
+            "Profile": "Adahonzo",
+            "Class": "Monk",
+            "Rift": "24",
+            "Time": "06:12",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 22,
+            "Profile": "Nolt",
+            "Class": "Monk",
+            "Rift": "2",
+            "Time": "03:38",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 23,
+            "Profile": "Rufus)r",
+            "Class": "Monk",
+            "Rift": "\u20ac3",
+            "Time": "04:06",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 23,
+            "Profile": "Elseistres",
+            "Class": "Monk",
+            "Rift": "23",
+            "Time": "04:26",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 23,
+            "Profile": "Skert",
+            "Class": "Monk",
+            "Rift": "23",
+            "Time": "04:26",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 23,
+            "Profile": "RIVAHMONSTAH",
+            "Class": "Monk",
+            "Rift": "23",
+            "Time": "05:44",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 23,
+            "Profile": "DodoT",
+            "Class": "Monk",
+            "Rift": "22",
+            "Time": "Q235",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 24,
+            "Profile": "Sacul",
+            "Class": "Monk",
+            "Rift": "gagi",
+            "Time": "04:44",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 24,
+            "Profile": "charles",
+            "Class": "Monk",
+            "Rift": "22",
+            "Time": "06:36",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 24,
+            "Profile": "WastedWelder",
+            "Class": "Monk",
+            "Rift": "21",
+            "Time": "03:18",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 24,
+            "Profile": "Renobeguh",
+            "Class": "Monk",
+            "Rift": "21",
+            "Time": "03:22",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 25,
+            "Profile": "Benny",
+            "Class": "Monk",
+            "Rift": "21",
+            "Time": "04:01",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 25,
+            "Profile": "Holytoledo",
+            "Class": "Monk",
+            "Rift": "21",
+            "Time": "04:58",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 25,
+            "Profile": "OBITO",
+            "Class": "Monk",
+            "Rift": "21",
+            "Time": "08:03",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 25,
+            "Profile": "SonOfSun82",
+            "Class": "Monk",
+            "Rift": "20",
+            "Time": "02:25",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 26,
+            "Profile": "Senseii",
+            "Class": "Monk",
+            "Rift": "20",
+            "Time": "03:03",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 26,
+            "Profile": "Replik",
+            "Class": "Monk",
+            "Rift": "20",
+            "Time": "04:03",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 26,
+            "Profile": "PhilMcKrackin",
+            "Class": "Monk",
+            "Rift": "20",
+            "Time": "04:14",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 26,
+            "Profile": "VoKy",
+            "Class": "Monk",
+            "Rift": "20",
+            "Time": "04:21",
+            "Server": "Caldesann"
+        },
+        {
+            "Rank": 26,
+            "Profile": "Vulln",
+            "Class": "Monk",
+            "Rift": "20",
+            "Time": "04:34",
+            "Server": "Caldesann"
+        }
+    ]
+}

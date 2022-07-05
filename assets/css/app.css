@@ -1,0 +1,78 @@
+body{
+    color: white;
+    background: #1c1b20;
+}
+header{
+    background: #e84057;
+}
+a.nav-link {
+    color: white !important;
+}
+
+li.nav-item.active {
+    font-weight: bold;
+    position: relative;
+}
+li.nav-item.active::after {
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    width: 100%;
+    height: 2px;
+    background:white;
+}
+.bg-gray{
+    background: #31313d;
+}
+#filters{
+     background: #282830;
+}
+
+thead {
+    background: #282830;
+}
+
+table#playersTable {
+    color: #555565;
+}
+
+tbody td:not(:first-child) {
+    color: white;
+}
+
+table img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#playersTable_wrapper .row:first-child {
+    display: none;
+}
+
+#playersTable_length {
+    float: right;
+}
+.table>:not(caption)>*>* {
+    border-bottom-width: 2px;
+    border-bottom-color: #1c1c1e;
+}
+th{
+    padding: 20px 0;
+}
+tr >:first-child {
+    padding-left: 20px !important;
+}
+td {
+    vertical-align: middle;
+    line-height: normal;
+}
+button#serversDropdown, .paginate_button a {
+    background: #31313c;
+    border-width: 2px;
+    border-color: #403f4f;
+    color: white;
+}
+th {
+    padding: 20px 0 !important;
+}

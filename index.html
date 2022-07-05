@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="assets/css/dataTables.bootstrap5.min.css" rel="stylesheet"/>
+    <link href="assets/css/app.css" rel="stylesheet"/>
+    <title>Leaderboards</title>
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Leaderboards</a>
+                    </li>
+                </ul>
+                <input class="form-control w-auto" size="50" placeholder="Search Player Name" id="searchPlayersInput"/>
+            </div>
+        </div>
+    </nav>
+</header>
+<main class="mb-5">
+    <div class="py-3 border-bottom border-dark border-2 bg-gray">
+        <div class="container">
+            <h2>Leaderboards</h2>
+        </div>
+    </div>
+    <div class="py-4 bg-gray"></div>
+    <div id="filters" class="py-2">
+        <div class="container">
+            <div class="dropdown float-start">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="serversDropdown"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                    All Servers
+                </button>
+                <ul class="dropdown-menu" id="serverList" aria-labelledby="serversDropdown">
+                    <li><a class="dropdown-item" href="javascript:void(0)">All Servers</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div id="playersList" class="py-2">
+        <div class="container">
+            <table id="playersTable" class="table" style="width:100%">
+                <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Player Name</th>
+                    <th>Class</th>
+                    <th>Rift</th>
+                    <th>Time</th>
+                </tr>
+                </thead>
+                <tbody class="bg-gray"></tbody>
+            </table>
+        </div>
+    </div>
+</main>
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/jquery.dataTables.min.js"></script>
+<script src="assets/js/dataTables.bootstrap5.min.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
