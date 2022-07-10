@@ -3,7 +3,7 @@ $('#searchPlayersInput').keyup(function () { //search players
     playersTable.search($(this).val()).draw();
 })
 $(document).ready(function () {
-    $.getJSON("/challengeriftmonk_snap.json", function (data) { //render json
+    $.getJSON("challengeriftmonk_snap.json", function (data) { //render json
         items = data.items;
         let serverListHtml = "";
         const serverNames = [];
@@ -20,7 +20,7 @@ $(document).ready(function () {
                 <tr>
                 <td>${index + 1}<span class="d-none">${serverName}</span></td>
                 <td
-                ><img alt="" src="/assets/user.png"/>
+                ><img alt="" src="assets/user.png"/>
                 <span>${item.Profile}</span>
                 </td>
                 <td>${item.Class}</td>
