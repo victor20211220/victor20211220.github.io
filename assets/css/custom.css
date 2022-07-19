@@ -2,6 +2,18 @@ body {
   background-color: white;
 }
 
+.bg-guess-posts {
+  background-color: #32a07a29;
+}
+
+.bg-niche-edits {
+  background-color: #FFECD8;
+}
+
+.bg-seo-services {
+  background-color: #EADAFF;
+}
+
 .bg-ta-addon {
   background-color: #4c5cf429;
 }
@@ -116,6 +128,8 @@ body {
 
 #customServices .card .card-body .badge {
   color: #2D2D2D;
+  height: 25px;
+  margin: 0 4px 0 0;
 }
 
 #customServices .card .card-body > p {
