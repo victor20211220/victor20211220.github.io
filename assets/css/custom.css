@@ -14,7 +14,7 @@ body {
   line-height: 24px;
 }
 
-#customServices button.btn {
+#customServices .btn {
   font-size: 18px;
   line-height: 22px;
   color: #282828;
@@ -48,6 +48,15 @@ body {
   line-height: 22px;
   z-index: 1;
   padding: 8px 16px 16px;
+}
+
+#customServices .folder-grid-wrapper {
+  grid-column-gap: 50px;
+  grid-row-gap: 30px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
 }
 
 #customServices .folder-detail {
@@ -89,23 +98,27 @@ body {
   height: 25px;
 }
 
+#customServices .card .card-body img {
+  margin-right: 18px;
+}
+
+#customServices .card .card-body .badge {
+  color: #2D2D2D;
+}
+
+#customServices .card .card-body > p {
+  margin-left: 42px;
+}
+
 #customServices .card .card-footer {
   border-top: solid 1px #E8E8E8;
 }
 
-#customServices .card button {
+#customServices .card .card-footer button {
   font-size: 15px;
   line-height: 18px;
   padding: 8px;
   border-width: 1.5px !important;
-}
-
-#customServices .card img {
-  margin-right: 18px;
-}
-
-#customServices .card .badge {
-  color: #2D2D2D;
 }
 
 #customServices .badge {

@@ -16,7 +16,7 @@ body {
         line-height: 24px;
     }
 
-    button.btn {
+    .btn {
         font-size: 18px;
         line-height: 22px;
         color: #282828;
@@ -54,6 +54,12 @@ body {
 
     }
 
+    .folder-grid-wrapper{
+        grid-column-gap: 50px;
+        grid-row-gap: 30px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
     .folder-detail {
         p {
             color: $secondary-color;
@@ -90,22 +96,28 @@ body {
             }
         }
 
-        .card-footer {
-            border-top: solid 1px #E8E8E8;
+        .card-body{
+            img{
+                margin-right: 18px;
+            }
+            .badge{
+                color: #2D2D2D;
+            }
+            > p{
+                margin-left: 42px;
+            }
         }
 
-        button {
-            font-size: 15px;
-            line-height: 18px;
-            padding: 8px;
-            border-width: 1.5px !important;
+        .card-footer {
+            border-top: solid 1px #E8E8E8;
+            button {
+                font-size: 15px;
+                line-height: 18px;
+                padding: 8px;
+                border-width: 1.5px !important;
+            }
         }
-        img{
-            margin-right: 18px;
-        }
-        .badge{
-            color: #2D2D2D;
-        }
+
     }
 
     .badge{
