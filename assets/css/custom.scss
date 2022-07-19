@@ -1,0 +1,110 @@
+$subtitle-color: #0F172A;
+$secondary-color: #66758A;
+
+body {
+    background-color: white;
+}
+
+#customServices {
+    font-size: 1rem;
+    font-weight: 500;
+
+    h1 {
+        color: $subtitle-color;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    button.btn {
+        font-size: 18px;
+        line-height: 22px;
+        color: #282828;
+        padding: 12px 24px;
+        border-width: 2px !important;
+        border-radius: 6px !important;
+    }
+
+    p {
+        color: $secondary-color;
+    }
+
+    nav.filter {
+        position: relative;
+        margin-bottom: 24px;
+
+        &::after {
+            border-bottom: 2px solid #E5E5E5;
+            content: "";
+            width: 100%;
+            position: absolute;
+            bottom: 0px;
+            z-index: 0;
+        }
+
+
+        a.nav-link {
+            color: $subtitle-color;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+            z-index: 1;
+            padding: 8px 16px 16px;
+        }
+
+    }
+
+    .folder-detail {
+        p {
+            color: $secondary-color;
+            margin-bottom: 40px;
+        }
+
+        img {
+            width: 150px;
+        }
+
+        button img{
+            width: 8px;
+        }
+
+        margin-bottom: 2em;
+    }
+
+    .grid-wrapper {
+        grid-column-gap: 16px;
+        grid-row-gap: 16px;
+    }
+
+    .card {
+        border: 1px solid #E8E8E8;
+        box-shadow: 0px 2px 4px rgba(189, 193, 198, 0.24);
+        border-radius: 8px;
+
+        .card-header {
+            border-bottom: solid 1px #E8E8E8;
+        }
+
+        .card-footer {
+            border-top: solid 1px #E8E8E8;
+        }
+
+        button {
+            font-size: 15px;
+            line-height: 18px;
+            padding: 8px;
+            border-width: 1.5px !important;
+        }
+        img{
+            margin-right: 18px;
+        }
+        .badge{
+            color: #2D2D2D;
+        }
+    }
+
+    .badge{
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
