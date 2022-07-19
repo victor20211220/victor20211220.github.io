@@ -55,7 +55,7 @@ body {
         border-radius: 6px !important;
     }
 
-    p {
+    p, .p {
         color: $secondary-color;
     }
 
@@ -139,7 +139,7 @@ body {
                 margin: 0 4px 0 0;
             }
 
-            >p {
+            .p {
                 margin-left: 42px;
             }
         }
