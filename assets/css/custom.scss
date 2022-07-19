@@ -61,7 +61,8 @@ body {
         }
 
         img {
-            width: 150px;
+            max-height: 180px;
+            max-width: 100%;
         }
 
         button img{
@@ -83,6 +84,10 @@ body {
 
         .card-header {
             border-bottom: solid 1px #E8E8E8;
+            .badge{
+                width: 25px;
+                height: 25px;
+            }
         }
 
         .card-footer {

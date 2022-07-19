@@ -60,7 +60,8 @@ body {
 }
 
 #customServices .folder-detail img {
-  width: 150px;
+  max-height: 180px;
+  max-width: 100%;
 }
 
 #customServices .folder-detail button img {
@@ -81,6 +82,11 @@ body {
 
 #customServices .card .card-header {
   border-bottom: solid 1px #E8E8E8;
+}
+
+#customServices .card .card-header .badge {
+  width: 25px;
+  height: 25px;
 }
 
 #customServices .card .card-footer {
