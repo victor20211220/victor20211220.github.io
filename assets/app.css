@@ -1,0 +1,724 @@
+:root{
+    --secondary: #ff00ff;--primary: #00ffff;
+}
+@font-face {
+    font-family: Arcade;
+    src: url('./Arcade interlaced.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3â€”5 */
+}
+*{
+    text-transform: uppercase;
+    font-family: Arcade !important;
+    color: var(--primary);
+    font-size: 2.46vh;
+}
+body {
+    background: black;
+    margin: 0;
+    overflow: hidden;
+}
+#main {
+    width: 122vh;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 0 2.88vw 2.46vh 2.88vw;
+    position: relative;
+}
+
+video{
+    z-index: -1;
+    position: absolute;
+}
+#logo {
+    margin-bottom: 1.93vh;
+    position: relative;
+}
+#logo video{
+    width: 100%;
+    top: 0;
+}
+#logo img{
+    margin-top: 2.46vh;
+}
+
+#boardPrizes {
+    display: grid;
+    grid-template-columns: 60.6% auto;
+    grid-column-gap: 2.69%;
+}
+
+#board {
+    position: relative;
+}
+#tanks {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 3.34%;
+    position: relative;
+}
+
+/*tank*/
+.tank {
+    position: relative;
+}
+
+.tank .egg-img {
+    position: absolute;
+    width: 57%;
+    left: 21.5%;
+    top: 20%;
+}
+.egg-img.egg-drop{
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+    animation-name: eggDrop;
+}
+@keyframes eggDrop{
+    0% {
+        top: -20%;
+    }
+    25% {
+        top: -10%;
+    }
+    50% {
+        top: 0;
+    }
+    75% {
+        top: 10%;
+    }
+    100% {
+        top: 20%;
+    }
+}
+.img-swing{
+    animation-duration: 5s;
+    animation-iteration-count: infinite !important;
+    animation-timing-function: linear !important;
+    animation-name: swingImg !important;
+}
+
+@keyframes swingImg{
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(-10deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(10deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.tank .img-appeal {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 60%;
+    left: 0;
+    display: none;
+    margin: auto;
+    right: 0;
+    height: 100%;
+}
+.img-appeal{
+    animation-duration: 0.75s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-name: imgAppeal;
+}
+@keyframes imgAppeal{
+    0% {
+        transform: scale(0);
+    }
+    75% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.img-swing{
+    animation-duration: 5s;
+    animation-iteration-count: infinite !important;
+    animation-timing-function: linear !important;
+    animation-name: swingImg !important;
+}
+div[class^=character-]{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    animation-duration: 3s;
+    animation-iteration-count: infinite !important;
+    animation-timing-function: linear !important;
+}
+.character-0{
+    animation-name:character0;
+}
+@keyframes character0 {
+    0% {
+        background-image: url("./images/character0-0.svg");
+    }
+    85% {
+        background-image: url("./images/character0-0.svg");
+    }
+    90% {
+        background-image: url("./images/character0-1.svg");
+    }
+    95% {
+        background-image: url("./images/character0-2.svg");
+    }
+    100% {
+        background-image: url("./images/character0-0.svg");
+    }
+}
+
+.character-1{
+    animation-name:character1;
+}
+@keyframes character1 {
+    0% {
+        background-image: url("./images/character1-0.svg");
+    }
+    85% {
+        background-image: url("./images/character1-0.svg");
+    }
+    90% {
+        background-image: url("./images/character1-1.svg");
+    }
+    95% {
+        background-image: url("./images/character1-2.svg");
+    }
+    100% {
+        background-image: url("./images/character1-0.svg");
+    }
+}
+.character-2{
+    animation-name:character2;
+}
+@keyframes character2 {
+    0% {
+        background-image: url("./images/character2-0.svg");
+    }
+    85% {
+        background-image: url("./images/character2-0.svg");
+    }
+    90% {
+        background-image: url("./images/character2-1.svg");
+    }
+    95% {
+        background-image: url("./images/character2-2.svg");
+    }
+    100% {
+        background-image: url("./images/character2-0.svg");
+    }
+}
+.character-3{
+    background-image: url("./images/character3-2.svg");
+}
+
+.character-4{
+    animation-name:character4;
+}
+@keyframes character4 {
+    0% {
+        background-image: url("./images/character4-0.svg");
+    }
+    90% {
+        background-image: url("./images/character4-0.svg");
+    }
+    95% {
+        background-image: url("./images/character4-2.svg");
+    }
+    100% {
+        background-image: url("./images/character4-0.svg");
+    }
+}
+
+.character-5{
+    animation-name:character5;
+}
+@keyframes character5 {
+    0% {
+        background-image: url("./images/character5-0.svg");
+    }
+    90% {
+        background-image: url("./images/character5-0.svg");
+    }
+    95% {
+        background-image: url("./images/character5-2.svg");
+    }
+    100% {
+        background-image: url("./images/character5-0.svg");
+    }
+}
+
+.character-6{
+    animation-name:character6;
+}
+@keyframes character6 {
+    0% {
+        background-image: url("./images/character6-0.svg");
+    }
+    90% {
+        background-image: url("./images/character6-0.svg");
+    }
+    95% {
+        background-image: url("./images/character6-2.svg");
+    }
+    100% {
+        background-image: url("./images/character6-0.svg");
+    }
+}
+
+.character-7{
+    animation-name:character7;
+}
+@keyframes character7 {
+    0% {
+        background-image: url("./images/character7-0.svg");
+    }
+    90% {
+        background-image: url("./images/character7-0.svg");
+    }
+    95% {
+        background-image: url("./images/character7-2.svg");
+    }
+    100% {
+        background-image: url("./images/character7-0.svg");
+    }
+}
+
+/*tank bubble*/
+.tank img[class^=bubble] {
+    position: absolute;
+    z-index: 3;
+    bottom: 0;
+    width: 20%;
+    animation-iteration-count: infinite !important;
+    animation-timing-function: linear !important;
+}
+.bubble-1, .bubble-1-1{
+    animation-name: bubble1;
+    animation-duration: 3s;
+}
+.bubble-1-1{
+    animation-duration: 2s;
+}
+.bubble-2, .bubble-2-1{
+    animation-name: bubble2;
+    animation-duration: 3.5s;
+}
+.bubble-2-1{
+    animation-duration: 2.5s;
+}
+.bubble-3, .bubble-3-1{
+    animation-name: bubble3;
+    animation-duration: 4s;
+}
+.bubble-3-1{
+    animation-duration: 3s;
+}
+
+.bubble-4, .bubble-4-1{
+    animation-name: bubble4;
+    animation-duration: 4.5s;
+}
+.bubble-4-1{
+    animation-duration: 3.5s;
+}
+
+.bubble-5, .bubble-5-1{
+    animation-name: bubble5;
+    animation-duration: 5s;
+}
+.bubble-5-1{
+    animation-duration: 4s;
+}
+@keyframes bubble1 {
+    0% {
+        left: 0;
+        bottom: 5%;
+    }
+    50% {
+        left: 20%;
+        bottom: 50%;
+    }
+    100% {
+        left: 10%;
+        bottom: 86%;
+    }
+}
+@keyframes bubble2 {
+    0% {
+        left: 50%;
+        bottom: 10%;
+    }
+    50% {
+        left: 30%;
+        bottom: 50%;
+    }
+    100% {
+        left: 50%;
+        bottom: 84%;
+    }
+}
+
+@keyframes bubble3 {
+    0% {
+        left: 20%;
+        bottom: 10%;
+    }
+    50% {
+        left: 10%;
+        bottom: 50%;
+    }
+    100% {
+        left: 20%;
+        bottom: 85%;
+    }
+}
+
+@keyframes bubble4 {
+    0% {
+        left: 30%;
+        bottom: 10%;
+    }
+    50% {
+        left: 50%;
+        bottom: 50%;
+    }
+    100% {
+        left: 75%;
+        bottom: 80%;
+    }
+}
+
+@keyframes bubble5 {
+    0% {
+        left: 70%;
+        bottom: 10%;
+    }
+    50% {
+        left: 50%;
+        bottom: 50%;
+    }
+    100% {
+        left: 30%;
+        bottom: 79%;
+    }
+}
+
+/*egg break*/
+.tank img[class^=egg-] {
+    position: absolute;
+    z-index: 2;
+    width: 20%;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    /*animation-iteration-count: infinite;*/
+    animation-timing-function: linear;
+    display: none;
+    top: 70%;
+}
+.egg-1{
+    animation-name: egg1;
+}
+.egg-2{
+    animation-name: egg2;
+}
+.egg-3{
+    animation-name: egg3;
+}
+.egg-4{
+    animation-name: egg4;
+}
+.egg-5{
+    animation-name: egg5;
+    width: 30% !important;
+}
+.egg-6{
+    animation-name: egg6;
+    width: 35% !important;
+}
+@keyframes egg1 {
+    0% {
+        left: 20%;
+        top: 5%;
+    }
+    10% {
+        left: 10%;
+        transform: rotate(20deg);
+    }
+    60% {
+        top: 70%;
+        opacity: 1;
+    }
+    100%{
+        left: 10%;
+        opacity: 0;
+    }
+}
+@keyframes egg3 {
+    0% {
+        left: 10%;
+        top: 20%;
+    }
+    10% {
+        transform: rotate(-20deg);
+    }
+    60% {
+        top: 70%;
+        left: 20%;
+        transform: rotate(-90deg);
+        opacity: 1;
+    }
+    100%{
+        left: 20%;
+        transform: rotate(-90deg);
+        opacity: 0;
+    }
+}
+@keyframes egg5 {
+    0% {
+        left: 5%;
+        top: 50%;
+    }
+    10% {
+        transform: rotate(-20deg);
+    }
+    60% {
+        left: 20%;
+        top: 70%;
+        opacity: 1;
+        transform: rotate(0deg);
+    }
+    100%{
+        left: 20%;
+        opacity: 0;
+    }
+}
+@keyframes egg2 {
+    0% {
+        right: 20%;
+        top: 5%;
+    }
+    10% {
+        right: 10%;
+        transform: rotate(10deg);
+    }
+    60% {
+        top: 70%;
+        right: 30%;
+        opacity: 1;
+    }
+    100%{
+        right: 30%;
+        opacity: 0;
+    }
+}
+@keyframes egg4 {
+    0% {
+        right: 20%;
+        top: 25%;
+    }
+    10% {
+        transform: rotate(20deg);
+    }
+    60% {
+        top: 70%;
+        right: 25%;
+        opacity: 1;
+        transform: rotate(80deg);
+        width: 15%;
+    }
+    100%{
+        transform: rotate(80deg);
+        right: 25%;
+        opacity: 0;
+        width: 15%;
+    }
+}
+@keyframes egg6 {
+    0% {
+        right: 20%;
+        top: 60%;
+    }
+    10% {
+        transform: rotate(20deg);
+    }
+    60% {
+        top: 75%;
+        right: 35%;
+        opacity: 1;
+    }
+    100%{
+        right: 35%;
+        top: 75%;
+        opacity: 0;
+    }
+}
+
+/*prizes*/
+.border-block {
+    border: solid 0.3vh var(--primary);
+    border-radius: 1vh;
+    padding: 1.76vh;
+    background: transparent;
+    display: block;
+    cursor: pointer;
+}
+.border-block.btn:hover{
+    background-color: var(--primary);
+    color: black;
+}
+.game-ended{
+    border-color: var(--secondary);
+    color: var(--secondary);
+}
+
+#cloneAll.game-ended:hover{
+    background-color: var(--secondary);
+}
+p {
+    margin: 0;
+}
+/*prize*/
+.prize {
+    border-top: solid 0.3vh;
+    padding: 2vh 0;
+}
+
+.portrait #prizes {padding-bottom: 2vh;}
+
+.prize > div {
+    display: flex;
+    justify-content: space-around;
+    vertical-align: middle;
+    align-items: center;
+}
+.prize .img-swing {
+    width: 15%;
+    height: 5vh;
+}
+small {
+    display: block;
+    margin: 0.5vh 0;
+}
+
+.float-right {
+    float: right;
+}
+
+.prize p {
+    margin-top: 0.5em;
+}
+
+.description {
+    margin: 2vh 0;
+}
+
+small, small span {
+    font-size: 1.17vh !important;
+}
+
+/*result modal*/
+#resultModal{
+    width: 67%;
+    left: calc(16.5% - 2vh);
+    top: 0;
+    bottom: 0;
+    display: none;
+    position: absolute;
+    background: black;
+    border: solid 0.3vh #00ffff;
+    border-radius: 2vh;
+    padding: 2vh;
+    /* margin: auto; */
+    z-index: 4;
+    height: 47vh;
+}
+
+#resultModal.result-0 {
+    height: 11vh;
+}
+#resultModal.result-3 {
+    height: 55vh;
+}
+#resultModal video{
+    width: calc(100% - 4vh);
+    max-height: calc(100% - 4vh);
+}
+.result-3 div#resultImages {
+    height: 40vh;
+}
+
+#resultImages {
+    margin: 2vh 0;
+    position: relative;
+    height: 32.2vh;
+    width: 100%;
+}
+#resultImages > div {
+    position: absolute;
+    display: block;
+    width: 25%;
+    margin: auto;
+    top: 0;
+    height: 68%;
+}
+
+#resultImages .left {
+    left: 0;
+}
+
+#resultImages .middle {
+    top: 25%;
+    left: 25%;
+    width: 50%;
+}
+
+#resultImages .right {
+    right: 0;
+}
+#resultImages div[class^=character-] {
+    background-position: top;
+}
+#claimPrice {
+    margin-top: 1vh;
+}
+/*portrait mode*/
+body.portrait {
+    overflow: auto;
+}
+.portrait * {
+    font-size: 1.5vh;
+}
+.portrait #main {
+    max-width: calc(100% - 5.76vw);
+}
+
+.portrait #boardPrizes {
+    grid-template-columns: 100%;
+    grid-column-gap: 0;
+    grid-row-gap: 2.69%;
+}
+.portrait #board {
+    /* order: 1; */
+}
+
+.portrait .prize {
+    padding: 1vh 0;
+}
+
+.portrait p {
+    display: inline;
+}

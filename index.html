@@ -5,77 +5,238 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet"/>
-    <link href="assets/css/dataTables.bootstrap5.min.css" rel="stylesheet"/>
-    <link href="assets/css/app.css" rel="stylesheet"/>
-    <title>Leaderboards</title>
+    <link rel="stylesheet" href="./assets/utilities.css">
+    <link rel="stylesheet" href="./assets/app.css">
+    <title>Document</title>
 </head>
 <body>
-<header>
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Leaderboards</a>
-                    </li>
-                </ul>
-                <input class="form-control w-auto" size="50" placeholder="Search Player Name" id="searchPlayersInput"/>
-            </div>
-        </div>
-    </nav>
-</header>
-<main class="mb-5">
-    <div class="py-3 border-bottom border-dark border-2 bg-gray">
-        <div class="container">
-            <h2>Leaderboards</h2>
-        </div>
+<div id="main">
+    <div id="logo" class="w-100">
+        <video autoplay muted loop>
+            <source src="./assets/mp4/Stars_Logo.mp4" type="video/mp4">
+        </video>
+        <img src="./assets/images/logo.svg" class="w-100" alt=""/>
     </div>
-    <div class="py-4 bg-gray"></div>
-    <div id="filters" class="py-2">
-        <div class="container">
-            <div class="dropdown float-start">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="serversDropdown"
-                        data-bs-toggle="dropdown" aria-expanded="false">
-                    All Servers
-                </button>
-                <ul class="dropdown-menu" id="serverList" aria-labelledby="serversDropdown">
-                    <li><a class="dropdown-item" href="javascript:void(0)">All Servers</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="clearfix"></div>
-    </div>
-    <div id="playersList" class="py-2">
-        <div class="container">
-            <table id="playersTable" class="table" style="width:100%">
-                <thead>
-                <tr>
-                    <th>#</th>
-                    <th>Player Name</th>
-                    <th>Class</th>
-                    <th>Rift</th>
-                    <th>Time</th>
-                </tr>
-                </thead>
-                <tbody class="bg-gray"></tbody>
-            </table>
-        </div>
-    </div>
-</main>
+    <div class="d-flex" id="boardPrizes">
+        <div id="board">
+            <div id="tanks">
+                <div class="tank" data-index="0">
+                    <img src="./assets/images/tank.svg" alt="" class="w-100"/>
+                    <img src="./assets/images/egg/1.svg" alt="" class="egg-1"/>
+                    <img src="./assets/images/egg/3.svg" alt="" class="egg-3"/>
+                    <img src="./assets/images/egg/5.svg" alt="" class="egg-5"/>
+                    <img src="./assets/images/egg/2.svg" alt="" class="egg-2"/>
+                    <img src="./assets/images/egg/4.svg" alt="" class="egg-4"/>
+                    <img src="./assets/images/egg/6.svg" alt="" class="egg-6"/>
+                </div>
+                <div class="tank" data-index="1">
+                    <img src="./assets/images/tank.svg" alt="" class="w-100"/>
+                    <img src="./assets/images/egg/1.svg" alt="" class="egg-1"/>
+                    <img src="./assets/images/egg/3.svg" alt="" class="egg-3"/>
+                    <img src="./assets/images/egg/5.svg" alt="" class="egg-5"/>
+                    <img src="./assets/images/egg/2.svg" alt="" class="egg-2"/>
+                    <img src="./assets/images/egg/4.svg" alt="" class="egg-4"/>
+                    <img src="./assets/images/egg/6.svg" alt="" class="egg-6"/>
+                </div>
+                <div class="tank" data-index="2">
+                    <img src="./assets/images/tank.svg" alt="" class="w-100"/>
+                    <img src="./assets/images/egg/1.svg" alt="" class="egg-1"/>
+                    <img src="./assets/images/egg/3.svg" alt="" class="egg-3"/>
+                    <img src="./assets/images/egg/5.svg" alt="" class="egg-5"/>
+                    <img src="./assets/images/egg/2.svg" alt="" class="egg-2"/>
+                    <img src="./assets/images/egg/4.svg" alt="" class="egg-4"/>
+                    <img src="./assets/images/egg/6.svg" alt="" class="egg-6"/>
 
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/bootstrap.bundle.min.js"></script>
-<script src="assets/js/jquery.dataTables.min.js"></script>
-<script src="assets/js/dataTables.bootstrap5.min.js"></script>
-<script src="assets/js/app.js"></script>
+                </div>
+                <div class="tank" data-index="3">
+                    <img src="./assets/images/tank.svg" alt="" class="w-100"/>
+                    <img src="./assets/images/egg/1.svg" alt="" class="egg-1"/>
+                    <img src="./assets/images/egg/3.svg" alt="" class="egg-3"/>
+                    <img src="./assets/images/egg/5.svg" alt="" class="egg-5"/>
+                    <img src="./assets/images/egg/2.svg" alt="" class="egg-2"/>
+                    <img src="./assets/images/egg/4.svg" alt="" class="egg-4"/>
+                    <img src="./assets/images/egg/6.svg" alt="" class="egg-6"/>
+
+                </div>
+                <div class="tank" data-index="4">
+                    <img src="./assets/images/tank.svg" alt="" class="w-100"/>
+                    <img src="./assets/images/egg/1.svg" alt="" class="egg-1"/>
+                    <img src="./assets/images/egg/3.svg" alt="" class="egg-3"/>
+                    <img src="./assets/images/egg/5.svg" alt="" class="egg-5"/>
+                    <img src="./assets/images/egg/2.svg" alt="" class="egg-2"/>
+                    <img src="./assets/images/egg/4.svg" alt="" class="egg-4"/>
+                    <img src="./assets/images/egg/6.svg" alt="" class="egg-6"/>
+
+                </div>
+                <div class="tank" data-index="5">
+                    <img src="./assets/images/tank.svg" alt="" class="w-100"/>
+                    <img src="./assets/images/egg/1.svg" alt="" class="egg-1"/>
+                    <img src="./assets/images/egg/3.svg" alt="" class="egg-3"/>
+                    <img src="./assets/images/egg/5.svg" alt="" class="egg-5"/>
+                    <img src="./assets/images/egg/2.svg" alt="" class="egg-2"/>
+                    <img src="./assets/images/egg/4.svg" alt="" class="egg-4"/>
+                    <img src="./assets/images/egg/6.svg" alt="" class="egg-6"/>
+
+                </div>
+                <div class="tank" data-index="6">
+                    <img src="./assets/images/tank.svg" alt="" class="w-100"/>
+                    <img src="./assets/images/egg/1.svg" alt="" class="egg-1"/>
+                    <img src="./assets/images/egg/3.svg" alt="" class="egg-3"/>
+                    <img src="./assets/images/egg/5.svg" alt="" class="egg-5"/>
+                    <img src="./assets/images/egg/2.svg" alt="" class="egg-2"/>
+                    <img src="./assets/images/egg/4.svg" alt="" class="egg-4"/>
+                    <img src="./assets/images/egg/6.svg" alt="" class="egg-6"/>
+
+                </div>
+                <div class="tank" data-index="7">
+                    <img src="./assets/images/tank.svg" alt="" class="w-100"/>
+                    <img src="./assets/images/egg/1.svg" alt="" class="egg-1"/>
+                    <img src="./assets/images/egg/3.svg" alt="" class="egg-3"/>
+                    <img src="./assets/images/egg/5.svg" alt="" class="egg-5"/>
+                    <img src="./assets/images/egg/2.svg" alt="" class="egg-2"/>
+                    <img src="./assets/images/egg/4.svg" alt="" class="egg-4"/>
+                    <img src="./assets/images/egg/6.svg" alt="" class="egg-6"/>
+
+                </div>
+                <div class="tank" data-index="8">
+                    <img src="./assets/images/tank.svg" alt="" class="w-100"/>
+                    <img src="./assets/images/egg/1.svg" alt="" class="egg-1"/>
+                    <img src="./assets/images/egg/3.svg" alt="" class="egg-3"/>
+                    <img src="./assets/images/egg/5.svg" alt="" class="egg-5"/>
+                    <img src="./assets/images/egg/2.svg" alt="" class="egg-2"/>
+                    <img src="./assets/images/egg/4.svg" alt="" class="egg-4"/>
+                    <img src="./assets/images/egg/6.svg" alt="" class="egg-6"/>
+                </div>
+            </div>
+            <div id="resultModal">
+                <video autoplay muted loop>
+                    <source src="./assets/mp4/Stars_Modal.mp4" type="video/mp4">
+                </video>
+                <p id="resultDescription"></p>
+                <div id="resultImages">
+                    <div class="left img-appeal"></div>
+                    <div class="middle img-appeal"></div>
+                    <div class="right img-appeal"></div>
+                </div>
+                <div class="border-block btn text-center" id="claimPrice">claim price</div>
+            </div>
+        </div>
+        <div id="prizes">
+            <div class="border-block">score:&nbsp;<span id="outcome">$0</span></div>
+            <div class="description">
+                <p>click on eggs.</p>
+                <p>clone 3 aliens</p>
+                <p>to win a price.</p>
+            </div>
+            <div class="prize" id="prize3">
+                <div>
+                    <div class="img-swing">
+                        <div class="character-2"></div>
+                    </div>
+                    <span>+</span>
+                    <div class="img-swing">
+                        <div class="character-2"></div>
+                    </div>
+                    <span>+</span>
+                    <div class="img-swing">
+                        <div class="character-2"></div>
+                    </div>
+                    <span>=</span>
+                    <span id="payout3"></span>
+                </div>
+                <p>green farmer</p>
+                <small>extremely hard to clone<span class="float-right">1:&nbsp;<span
+                        id="outcome3"></span></span></small>
+            </div>
+            <div class="prize" id="prize2">
+                <div>
+                    <div class="img-swing">
+                        <div class="character-1"></div>
+                    </div>
+                    <span>+</span>
+                    <div class="img-swing">
+                        <div class="character-1"></div>
+                    </div>
+                    <span>+</span>
+                    <div class="img-swing">
+                        <div class="character-1"></div>
+                    </div>
+                    <span>=</span>
+                    <span id="payout2"></span>
+                </div>
+                <p>ant builder</p>
+                <small>difficult to clone<span class="float-right">1:&nbsp;<span id="outcome2"></span></span></small>
+            </div>
+            <div class="prize" id="prize1">
+                <div>
+                    <div class="img-swing">
+                        <div class="character-0"></div>
+                    </div>
+                    <span>+</span>
+                    <div class="img-swing">
+                        <div class="character-0"></div>
+                    </div>
+                    <span>+</span>
+                    <div class="img-swing">
+                        <div class="character-0"></div>
+                    </div>
+                    <span>=</span>
+                    <span id="payout1"></span>
+                </div>
+                <p>worm miner</p>
+                <small>easy to clone<span class="float-right">1:&nbsp;<span id="outcome1"></span></span></small>
+            </div>
+            <div class="border-block btn text-center" id="cloneAll">clone all</div>
+        </div>
+    </div>
+</div>
+<div class="sounds d-none">bgSound
+<!--    <iframe src="assets/sounds/silence.mp3" type="audio/mp3" allow="autoplay" style="display:none" id="iframeAudio">-->
+<!--    </iframe>-->
+    <audio id="bgSound" autoplay>
+      <source src="./assets/sounds/Ambiance/Mixed%20Loop/Ambiance_Loop_Mixed_v1.wav" type="audio/wav">
+    </audio>buttonMouseUpSound
+    <audio controls id="buttonMouseUpSound">
+      <source src="./assets/sounds/Button_Click/Button_Click_Mouse_Up.wav" type="audio/wav">
+    </audio>buttonMouseDownSound
+    <audio controls id="buttonMouseDownSound">
+      <source src="./assets/sounds/Button_Click/Button_Click_Mouse_Down.wav" type="audio/wav">
+    </audio>eggClickSound
+    <audio controls id="eggClickSound">
+      <source src="./assets/sounds/Egg_Crack/Egg_Crack_v1.wav" type="audio/wav">
+    </audio>gameEndSound
+    <audio controls id="gameEndSound">
+      <source src="./assets/sounds/Game_End/Aliens_Disapear_v1.wav" type="audio/wav">
+    </audio>gameStartSound
+    <audio controls id="gameStartSound">
+      <source src="./assets/sounds/Game_Initialize/Neon_Blink_v1.wav" type="audio/wav">
+    </audio>farmerAppearSound
+    <audio controls id="farmerAppearSound">
+      <source src="./assets/sounds/Green_Farmer_Cloned/Green_Farmer_Cloned_v1.wav" type="audio/wav">
+    </audio>eggAppearSound
+    <audio controls id="eggAppearSound">
+      <source src="./assets/sounds/Game_Start/Eggs_Appear_v1.wav" type="audio/wav">
+    </audio>scoreChangeSound
+    <audio controls id="scoreChangeSound">
+      <source src="./assets/sounds/Score_Increase/Score_Increase_v1.wav" type="audio/wav">
+    </audio>winModalPopupSound
+    <audio controls id="winModalPopupSound">
+      <source src="./assets/sounds/Winning_Stars/Winning_Stars_v1.wav" type="audio/wav">
+    </audio>popup1Sound
+    <audio controls id="popup1Sound">
+      <source src="./assets/sounds/Zoom_Popup/Zoom_Popup_1_v1.wav" type="audio/wav">
+    </audio>popup2Sound
+    <audio controls id="popup2Sound">
+      <source src="./assets/sounds/Zoom_Popup/Zoom_Popup_2_v1.wav" type="audio/wav">
+    </audio>popup3Sound
+    <audio controls id="popup3Sound">
+      <source src="./assets/sounds/Zoom_Popup/Zoom_Popup_3_v1.wav" type="audio/wav">
+    </audio>popup4Sound
+    <audio controls id="popup4Sound">
+      <source src="./assets/sounds/Zoom_Popup/Zoom_Popup_4_v1.wav" type="audio/wav">
+    </audio>
+</div>
+<script src="./assets/jquery.min.js"></script>
+<script src="./assets/app.js"></script>
 </body>
 </html>

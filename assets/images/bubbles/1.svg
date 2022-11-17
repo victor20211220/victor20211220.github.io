@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Bubble_5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:#FFFFFF;}
+	.st2{opacity:0.5;fill:#FFF7F7;}
+</style>
+<g>
+	
+		<radialGradient id="SVGID_1_" cx="-1227.885" cy="376.2138" r="3.0465" gradientTransform="matrix(1.4627 0 0 1.4627 1813.5807 -532.8043)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0.3851" style="stop-color:#FFFFFF;stop-opacity:0"/>
+		<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0.5"/>
+	</radialGradient>
+	<path class="st0" d="M17.6,13.1c-4.4-0.1-5.7,4.5-3.8,7c2.2,2.8,6.6,2.2,7.8-0.7C23,15.9,20.4,13.2,17.6,13.1z"/>
+	<path class="st1" d="M14.8,15.5c-0.7,1.1-0.9,2.8-0.2,3.9c0,0-0.3-2.5,2.2-3.6c1.9-0.9,0.4-1.9-0.2-1.7
+		C16.2,14.3,15.4,14.5,14.8,15.5z"/>
+	<path class="st2" d="M18.1,20.9c0,0,1.6,0.2,2.4-1.3c0.9-1.5,0.4-2.9,0.4-2.9s-0.1,1.4-1,2.5C19,20.4,18.1,20.9,18.1,20.9z"/>
+</g>
+</svg>

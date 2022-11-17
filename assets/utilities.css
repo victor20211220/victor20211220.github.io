@@ -1,0 +1,16 @@
+.w-100{
+    width: 100%;
+}
+.d-none{
+    display: none;
+}
+.d-flex{
+    display: flex;
+}
+
+.float-right {
+    float: right;
+}
+.text-center{
+    text-align: center;
+}
